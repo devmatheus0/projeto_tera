@@ -1,0 +1,35 @@
+body {
+    background-image:url(../bg-img2.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center;
+}
+
+.pg-title { /* inserir o estilo da fonte */
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 85px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.credenciais { /* inserir o estilo da fonte */
+    color: #fff;  
+}
+
+.botao  {
+    width: 5%;
+    height: 5%;
+    border-radius: 25%;
+}
+
+.botao:hover {
+    color:blueviolet;
+}
